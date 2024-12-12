@@ -1,8 +1,8 @@
 import React from "react";
-import Services from "../components/Services.tsx"
-import Footer from "../components/Footer.tsx"
-import Hero from "../components/Hero.tsx"
-import Testimonies from "../components/Testimonies.tsx"
+import Services from "../components/Services"
+import Footer from "../components/Footer"
+import Hero from "../components/Hero"
+import Testimonies from "../components/Testimonies"
 
 export const Home: React.FC = () => {
   return (
