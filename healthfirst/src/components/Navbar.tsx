@@ -60,7 +60,7 @@ export const Navbar: React.FC = () => {
       </div>
       {/* mobile navigation */}
       <div
-        className={`fixed z-40 w-full  bg-gray-100 overflow-hidden flex flex-col lg:hidden gap-12  origin-top duration-700 ${
+        className={`fixed z-40 w-full  bg-white overflow-hidden flex flex-col lg:hidden gap-12  origin-top duration-700 ${
           !toggleMenu ? "h-0" : "h-full"
         }`}
       >

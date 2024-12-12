@@ -3,7 +3,7 @@ import React from "react";
 export const Footer: React.FC = () => {
   return (
     <section id="footer">
-      <div className="bg-gray-100 py-8">
+      <div className=" bg-white py-8">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-gray-800 text-center mb-8">
             Contact Us
@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
               rel="noreferrer"
             >
               <svg
-                className="w-14 h-14 text-gray-800 dark:text-white"
+                className="w-14 h-14 text-gray-800"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -45,7 +45,7 @@ export const Footer: React.FC = () => {
               rel="noreferrer"
             >
               <svg
-                className="w-14 h-14 text-gray-800 dark:text-white"
+                className="w-14 h-14 text-gray-800"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -69,7 +69,7 @@ export const Footer: React.FC = () => {
               rel="noreferrer"
             >
               <svg
-                className="w-14 h-14 text-gray-800 dark:text-white"
+                className="w-14 h-14 text-gray-800 "
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

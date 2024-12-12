@@ -4,7 +4,7 @@ export const Hero: React.FC = () => {
   return (
     <div id = "Home">
    
-    <section className="flex items-center justify-center bg-gray-100 py-12 mt-32">
+    <section className="flex items-center justify-center  bg-whitespy-12 mt-32">
       <div className="container mx-auto flex flex-col max-w-screen-2xl md:flex-row items-center justify-between px-6 md:px-52">
         {/* Left Side - Rounded Image */}
         <div className="w-64 h-64 mb-6 md:w-96 md:h-96 md:mb-0 md:mr-8 shadow-black shadow-2xl rounded-full animate-fadeInLeft">
