@@ -4,7 +4,7 @@ export const Hero: React.FC = () => {
   return (
     <div id = "Home">
    
-    <section className="flex items-center justify-center  bg-whitespy-12 mt-32">
+    <section className="flex items-center justify-center  bg-whitespy-12 mt-32 py-14 px-8" >
       <div className="container mx-auto flex flex-col max-w-screen-2xl md:flex-row items-center justify-between px-6 md:px-52">
         {/* Left Side - Rounded Image */}
         <div className="w-64 h-64 mb-6 md:w-96 md:h-96 md:mb-0 md:mr-8 shadow-black shadow-2xl rounded-full animate-fadeInLeft">
@@ -19,7 +19,7 @@ export const Hero: React.FC = () => {
           <p className="text-gray-600 mb-6 text-base md:text-xl">
             Empowering you to make lasting changes for a healthier life.
           </p>
-          <button className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition animate-bounceIn">
+          <button className="bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700 transition animate-bounceIn">
             Get Started
           </button>
         </div>

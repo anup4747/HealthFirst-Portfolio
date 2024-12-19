@@ -11,29 +11,29 @@ import {
 export const Navbar: React.FC = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className=" bg-white shadow-lg">
-      <div className="max-w-7xl mx-auto flex flex-row self-center justify-center">
+    <nav className=" bg-white shadow-lg z-30">
+      <div className="max-w-6xl mx-auto flex flex-row self-center justify-center">
         <div className="flex mx-auto justify-between w-full fixed  bg-white shadow-lg">
           {/* Primary menu and logo */}
-          <div className="flex items-center gap-16 my-12 ml-32">
+          <div className="flex items-center gap-16 my-10 ml-32">
             {/* logo */}
             <div>
               <Link to="/" onClick={() => setToggleMenu(!toggleMenu)}>
                 <div className="flex gap-1 font-bold text-gray-700 items-center ">
-                  <PaperAirplaneIcon className="h-6 w-6 text-primary" />
+                  <PaperAirplaneIcon className="h-7 w-7 text-green-700 text-primary" />
 
-                  <span>Health First</span>
+                  <span className="text-2xl">Health First</span>
                 </div>
               </Link>
             </div>
             {/* primary */}
             <div className="hidden lg:flex gap-8">
-              <Link to="/" className="">
+              <Link to="/" className="text-lg hover:underline">
                 Home
               </Link>
-              <Link to="/services">Services</Link>
-              <Link to="/about">About</Link>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/services" className="text-lg hover:underline">Services</Link>
+              <Link to="/about" className="text-lg hover:underline"> About</Link>
+              <Link to="/contact" className="text-lg hover:underline" >Contact Us</Link>
             </div>
           </div>
           {/* secondary */}
@@ -50,7 +50,7 @@ export const Navbar: React.FC = () => {
               </div>
             </div>
             {/* Mobile navigation toggle */}
-            <div className="lg:hidden flex items-center ">
+            <div className="lg:hidden flex items-center mr-8">
               <button onClick={() => setToggleMenu(!toggleMenu)}>
                 <Bars3Icon className="h-6" />
               </button>
@@ -60,26 +60,27 @@ export const Navbar: React.FC = () => {
       </div>
       {/* mobile navigation */}
       <div
-        className={`fixed z-40 w-full  bg-white overflow-hidden flex flex-col lg:hidden gap-12  origin-top duration-700 ${
+        className={`fixed z-40 w-full  bg-gray-50 overflow-hidden flex flex-col lg:hidden gap-12  origin-top duration-700 ${
           !toggleMenu ? "h-0" : "h-full"
         }`}
+        onClick={() => setToggleMenu(!toggleMenu)}
       >
-        <div className="px-8">
+        <div className="px-8 mt-9">
           <div className="flex flex-col gap-8 font-bold tracking-wider">
             <Link
               to="/"
-              className="border-l-4 border-gray-600"
+              className=" border-gray-600 hover:underline"
               onClick={() => setToggleMenu(!toggleMenu)}
             >
               Home
             </Link>
-            <Link to="/services" onClick={() => setToggleMenu(!toggleMenu)}>
+            <Link to="/services "   className=" border-gray-600 hover:underline" onClick={() => setToggleMenu(!toggleMenu)}>
               Services
             </Link>
-            <Link to="/about" onClick={() => setToggleMenu(!toggleMenu)}>
+            <Link to="/about"  className=" border-gray-600 hover:underline" onClick={() => setToggleMenu(!toggleMenu)}>
               Testimonies
             </Link>
-            <Link to="/contact" onClick={() => setToggleMenu(!toggleMenu)}>
+            <Link to="/contact"  className=" border-gray-600 hover:underline" onClick={() => setToggleMenu(!toggleMenu)}>
               Contact Us
             </Link>
           </div>
