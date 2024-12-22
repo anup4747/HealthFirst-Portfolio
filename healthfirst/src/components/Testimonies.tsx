@@ -12,7 +12,8 @@ export const Testimonies: React.FC = () => {
         <h2 className="text-4xl font-bold text-gray-800 text-center mb-8">
           Testimonies
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="w-24 h-1 bg-green-600 mx-auto rounded-full"></div>
+        <div className="grid mt-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div className="w-full h-full">
             <img
               src={testimony1}

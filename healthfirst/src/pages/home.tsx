@@ -9,7 +9,7 @@ export const Home: React.FC = () => {
       <Hero />
       <hr className="border-t-2 border-gray-400 my-8"></hr>
       <Services />
-      <hr className="border-t-2 border-gray-400 my-8"></hr>
+     
       <Testimonies />
     </div>
   );

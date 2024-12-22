@@ -51,14 +51,14 @@ const Services: FC = () => {
   ];
 
   return (
-    <section className="bg-gray-50 py-16" id="Services">
+    <section className= " bg-white py-16 z-0" id="Services">
       <div className="container mx-auto px-6 md:px-12">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Services</h2>
           <div className="w-24 h-1 bg-green-600 mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {services.map((service, index) => (
             <div
               key={index}
