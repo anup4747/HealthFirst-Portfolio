@@ -9,7 +9,7 @@ export const Testimonies: React.FC = () => {
   return (
     <section id="Testimonies  ">
       <div className="container mx-auto px-6 md:px-36">
-        <h2 className="text-4xl font-bold text-gray-800 text-center mb-8">
+        <h2 className="text-4xl font-bold text-gray-800 text-center mb-5">
           Testimonies
         </h2>
         <div className="w-24 h-1 bg-green-600 mx-auto rounded-full "></div>

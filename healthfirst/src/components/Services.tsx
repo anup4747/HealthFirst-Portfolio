@@ -36,6 +36,9 @@ const ServiceCard: FC<ServiceCardProps> = ({ icon: Icon, title }) => (
   </div>
 );
 
+
+
+
 const Services: FC = () => {
   const services: ServiceItem[] = [
     { icon: Dumbbell, title: "Online Exercise" },
