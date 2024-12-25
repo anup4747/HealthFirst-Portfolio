@@ -80,11 +80,13 @@ export const Testimonies: React.FC = () => {
         </div>
       </div>
 
-      <Link to="/services">
-                    <button className="bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700 transition animate-bounceIn mt-10">
-                      Get Started
-                    </button>
-                  </Link>
+      <div className="w-full flex justify-center">
+        <Link to="/services">
+          <button className="bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700 transition animate-bounceIn mt-10">
+            Get Started
+          </button>
+        </Link>
+      </div>
     </section>
   );
 };
