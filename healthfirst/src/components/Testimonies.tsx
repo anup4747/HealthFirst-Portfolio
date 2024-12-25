@@ -4,7 +4,7 @@ import testimony2 from "../public/result2.png";
 import testimony3 from "../public/result3.png";
 import testimony4 from "../public/result4.png";
 import React from "react";
-
+import { Link } from "react-router-dom";
 export const Testimonies: React.FC = () => {
   return (
     <section id="Testimonies  ">
@@ -79,6 +79,12 @@ export const Testimonies: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <Link to="/services">
+                    <button className="bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700 transition animate-bounceIn mt-10">
+                      Get Started
+                    </button>
+                  </Link>
     </section>
   );
 };
