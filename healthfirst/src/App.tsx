@@ -8,12 +8,14 @@ import { Contact } from "./pages/contact";
 import { Services } from "./pages/services";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Footer } from "./components/Footer";
+import ScrollToTop from "./components/ScrollTop";
 
 export const App: React.FC = () => {
   return (
     <div className="app">
       <Router>
         {/* Navbar is persistent and rendered above all routes */}
+        <ScrollToTop/>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
