@@ -12,7 +12,7 @@ import ScrollToTop from "./components/ScrollTop";
 
 export const App: React.FC = () => {
   return (
-    <div className="app">
+    <div className="app ">
       <Router>
         {/* Navbar is persistent and rendered above all routes */}
         <ScrollToTop/>

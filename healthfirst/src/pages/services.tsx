@@ -73,7 +73,7 @@ const ServiceFeature: React.FC<ServiceFeatureProps> = ({
 
         {/* Image */}
         <div className="flex-1 flex justify-center">
-          <div className="w-full max-w-xl rounded-lg overflow-hidden">
+          <div className="w-full max-w-xl rounded-lg shadow-black shadow-lg overflow-hidden">
             <img
               src={imageUrl}
               alt={title}
@@ -132,7 +132,7 @@ const ExpertiseGrid = () => {
 
 export const Services: React.FC = () => {
   return (
-    <section className="mt-28">
+    <section className="mt-24 bg-gradient-to-b from-white to-green-100 pb-10">
       <div className="w-full h-[600px] relative z-10">
         <div
           className="w-full h-full absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -172,7 +172,7 @@ export const Services: React.FC = () => {
       <Link to="/contact">
         <div className="w-full flex justify-center mt-10 ">
           <button className="bg-green-600 text-lg  text-white py-3 px-8 rounded-xl hover:bg-green-700 transition animate-bounceIn">
-            Join Now
+            Join Now !
           </button>
         </div>
       </Link>
@@ -182,7 +182,7 @@ export const Services: React.FC = () => {
       <Link to="/contact">
         <div className="w-full flex justify-center  ">
           <button className="bg-green-600 text-lg  text-white py-3 px-8 rounded-xl hover:bg-green-700 transition animate-bounceIn">
-            Join Now
+            Join Now !
           </button>
         </div>
       </Link>

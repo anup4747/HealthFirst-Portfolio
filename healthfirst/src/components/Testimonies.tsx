@@ -7,12 +7,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 export const Testimonies: React.FC = () => {
   return (
-    <section id="Testimonies  ">
+    <section id="Testimonies " className="bg-gradient-to-b from-green-50 to-green-100 pt-10 pb-10">
       <div className="container mx-auto px-6 md:px-36">
         <h2 className="text-4xl font-bold text-gray-800 text-center mb-5">
           Testimonies
         </h2>
-        <div className="w-24 h-1 bg-green-600 mx-auto rounded-full "></div>
+        <div className="w-24 h-1 bg-green-600 mx-auto rounded-full mb-10"></div>
         <div className="grid mt-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div className="w-full h-full ">
             <img

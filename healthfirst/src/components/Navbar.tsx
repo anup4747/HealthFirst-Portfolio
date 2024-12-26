@@ -11,11 +11,11 @@ import {
 export const Navbar: React.FC = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className=" bg-white shadow-lg z-50 ">
-      <div className="max-w-6xl mx-auto flex flex-row self-center justify-center">
+    <nav className="relative bg-white shadow-lg z-50">
+      <div className=" max-w-6xl mx-auto flex flex-row self-center justify-center">
         <div className="flex mx-auto justify-between w-full fixed  bg-white shadow-lg">
           {/* Primary menu and logo */}
-          <div className="flex items-center gap-16 my-10 ml-32">
+          <div className="flex items-center gap-16 my-8 ml-24">
             {/* logo */}
             <div>
               <Link to="/" onClick={() => setToggleMenu(!toggleMenu)}>

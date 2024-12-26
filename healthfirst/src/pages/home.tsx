@@ -5,9 +5,9 @@ import Testimonies from "../components/Testimonies";
 
 export const Home: React.FC = () => {
   return (
-    <div className="Home mt-36">
+    <div className="Home mt-16">
       <Hero />
-      <hr className="border-t-2 border-gray-400 my-8"></hr>
+      <hr className="border-t-2 border-gray-400 mb-4"></hr>
       <Services />
      
       <Testimonies />

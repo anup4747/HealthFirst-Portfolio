@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-white mt-14">
-      <div className="max-w-screen-xl mx-auto px-4 py-12">
+    <footer className="bg-white mt-14 pb-10">
+      <div className="max-w-screen-xl mx-auto px-4 ">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Company Info */}

@@ -2,7 +2,7 @@ import React from "react";
 
 export const Contact: React.FC = () => {
   return (
-    <section className="mt-40 mx-10">
+    <section className="pt-40 pb-20 px-10 bg-gradient-to-b from-green-100 to-green-200">
       <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md">
         <div className="text-center mb-8">
           <div className="w-16 h-16 bg-orange-400 rounded-full mx-auto mb-4 flex items-center justify-center">
