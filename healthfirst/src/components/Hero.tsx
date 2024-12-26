@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Leaf, Heart, Brain } from "lucide-react";
 export const Hero: React.FC = () => {
   return (
-    <div className="relative overflow-hidden bg-gradient-to-b from-white to-green-50 z-0">
+    <div className="relative overflow-hidden bg-gradient-to-b from-white to-green-100 z-0">
       {/* Background Decoration */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-32 h-32 bg-green-300 rounded-full blur-3xl"></div>
