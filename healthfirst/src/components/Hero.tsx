@@ -11,7 +11,7 @@ export const Hero: React.FC = () => {
         <div className="absolute bottom-20 right-20 w-32 h-32 bg-green-400 rounded-full blur-3xl"></div>
       </div>
 
-      <section className="relative min-h-screen flex items-center justify-center py-16 px-4">
+      <section className="relative min-h-screen flex items-center justify-center pb-8 px-4">
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left Side Content */}
