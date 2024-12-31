@@ -3,6 +3,8 @@ import testimony1 from "../public/result1.png";
 import testimony2 from "../public/result2.png";
 import testimony3 from "../public/result3.png";
 import testimony4 from "../public/result4.png";
+import testimony5 from "../public/result5.png";
+import testimony6 from "../public/result6.jpg";
 import React from "react";
 import { Link } from "react-router-dom";
 export const Testimonies: React.FC = () => {
@@ -44,14 +46,14 @@ export const Testimonies: React.FC = () => {
           </div>
           <div className="w-full h-full">
             <img
-              src={maintainance}
+              src={testimony5}
               alt="Gallery 5"
               className="object-cover w-full h-full rounded-lg shadow-lg shadow-gray-200 hover:shadow-gray-400  transform transition-transform duration-300 hover:scale-105"
             />
           </div>
           <div className="w-full h-full">
             <img
-              src={maintainance}
+              src={testimony6}
               alt="Gallery 6"
               className="object-cover w-full h-full rounded-lg shadow-lg shadow-gray-200 hover:shadow-gray-400  transform transition-transform duration-300 hover:scale-105"
             />
