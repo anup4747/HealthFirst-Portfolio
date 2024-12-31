@@ -7,7 +7,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 export const Testimonies: React.FC = () => {
   return (
-    <section id="Testimonies " className="bg-gradient-to-b from-green-50 to-green-100 pt-10 pb-10">
+    <section id="Testimonies " className="bg-gradient-to-b from-green-50 to-green-100 pt-14 pb-10">
       <div className="container mx-auto px-6 md:px-36">
         <h2 className="text-4xl font-bold text-gray-800 text-center mb-5">
           Testimonies

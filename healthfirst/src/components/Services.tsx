@@ -54,7 +54,7 @@ const Services: FC = () => {
   ];
 
   return (
-    <section className= " bg-white py-10 z-0 bg-gradient-to-b from-white to-green-50" id="Services">
+    <section className= " bg-white py-10 z-0 bg-gradient-to-b from-green-50 to-green-100" id="Services">
       <div className="container mx-auto px-6 md:px-12">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Services</h2>

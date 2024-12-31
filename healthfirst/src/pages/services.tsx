@@ -72,8 +72,8 @@ export const Services: React.FC = () => {
         </div>
       </div>
 
-          <Services2/>
-      
+      <Services2 />
+
       <ExpertiseGrid />
 
       <Link to="/contact">

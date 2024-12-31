@@ -51,7 +51,7 @@ const ServiceFeature: React.FC<ServiceFeatureProps> = ({
   imageOnRight = true,
 }) => {
   return (
-    <div className="container mx-auto px-4 py-5 mt-20">
+    <div className="container mx-auto px-4 py-5 mt-5">
       <div
         className={`flex flex-col ${
           imageOnRight ? "md:flex-row gap-9" : "md:flex-row-reverse gap-20"
@@ -88,7 +88,7 @@ const ServiceFeature: React.FC<ServiceFeatureProps> = ({
 
 export const Services2: React.FC =()=> {
   return (
-    <section>
+    <section className="mt-10">
       <div>
         {servicesData.map((feature) => (
           <ServiceFeature
@@ -102,7 +102,8 @@ export const Services2: React.FC =()=> {
       </div>
 
       <Link to="/contact">
-        <div className="w-full flex justify-center mt-10 ">
+        <div className="w-full flex justify-center mt-3">
+          
           <button className="bg-green-600 text-lg  text-white py-3 px-8 rounded-xl hover:bg-green-700 transition animate-bounceIn">
             Join Now !
           </button>

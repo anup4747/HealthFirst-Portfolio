@@ -3,11 +3,11 @@ import { Mail, Phone, MessageCircle, ExternalLink, MapPin, Clock } from 'lucide-
 
 export const Contact: React.FC = () => {
   return (
-    <section className="min-h-screen mt-24 bg-gradient-to-b from-white to-green-50">
+    <section className="min-h-screen mt-24 bg-gradient-to-b from-green-50 to-green-200">
     {/* Header Section */}
     <div className="py-16 px-4 text-center">
       <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-        Let's Start Your Journey Together
+        Let's Start Your  <span className="text-green-600"> Journey </span> Together
       </h1>
       <p className="text-lg text-gray-600 max-w-2xl mx-auto">
         Take the first step towards your health goals. Fill out our intake form or reach out through any of our contact channels.
@@ -19,7 +19,8 @@ export const Contact: React.FC = () => {
         {/* Left Column - Contact Info */}
         <div className="space-y-8">
           {/* Contact Cards */}
-          <div className="bg-white rounded-2xl shadow-lg p-8 space-y-6">
+          <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow
+                     border border-gray-100 p-8 space-y-6">
             <h2 className="text-2xl font-semibold text-gray-800 mb-6">
               Direct Contact Methods
             </h2>
@@ -31,7 +32,7 @@ export const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-medium text-gray-900">Phone</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+91 9890619348</p>
                 </div>
               </div>
 
@@ -41,7 +42,7 @@ export const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-medium text-gray-900">Email</h3>
-                  <p className="text-gray-600">contact@healthcoach.com</p>
+                  <p className="text-gray-600">rupalidtarawade@gmail.com</p>
                 </div>
               </div>
 
@@ -51,7 +52,7 @@ export const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-medium text-gray-900">Location</h3>
-                  <p className="text-gray-600">123 Wellness Street, Health City, HC 12345</p>
+                  <p className="text-gray-600">Behind Toyota Showroom, Health First Nutrition Club, Wasan Nagar, Pathradi Phata, Nashik - 422009</p>
                 </div>
               </div>
 
@@ -61,8 +62,8 @@ export const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-medium text-gray-900">Office Hours</h3>
-                  <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                  <p className="text-gray-600">Saturday: 10:00 AM - 2:00 PM</p>
+                  <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM to</p>
+                  <p className="text-gray-600">Saturday: 9:00 AM - 6:00 PM</p>
                 </div>
               </div>
             </div>
@@ -70,7 +71,8 @@ export const Contact: React.FC = () => {
         </div>
 
         {/* Right Column - Google Form Card */}
-        <div className="bg-white rounded-2xl shadow-lg p-8">
+        <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow
+                     border border-gray-100 p-8">
           <div className="text-center space-y-4">
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto">
               <MessageCircle className="w-8 h-8 text-green-600" />
