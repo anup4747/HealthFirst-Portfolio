@@ -4,11 +4,11 @@ import { Heart, Users, Clock, Target } from 'lucide-react';
 
 export const About: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b mt-20 from-white to-green-50">
+    <div className="min-h-screen bg-gradient-to-b mt-20 from-green-50 to-green-200">
       {/* Header Section */}
       <div className="text-center py-16 px-4">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-          Meet Your Health Journey Guides
+          Meet Your Health  <span className="text-green-600"> Journey </span> Guides
         </h1>
         <p className="text-xl text-gray-600 px-9">
           With over <b>4 years</b>  of combined experience in transforming lives
@@ -67,7 +67,7 @@ export const About: React.FC = () => {
           </div>
 
           {/* Creative Timeline Element */}
-          <div className="bg-white rounded-2xl transition-shadow transition duration-100 shadow-xl hover:shadow-2xl  p-8">
+          <div className="bg-white rounded-2xl transition-shadow duration-100 shadow-xl hover:shadow-2xl  p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Your Journey With Us</h3>
             <div className="space-y-6">
               {[
