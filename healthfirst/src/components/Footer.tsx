@@ -57,7 +57,7 @@ export const Footer: React.FC = () => {
           <div className="text-center md:text-right">
             <h3 className="text-xl font-bold text-gray-800 mb-4">Contact Us</h3>
             <div className="space-y-2">
-              <p className="text-gray-600">Email: info@healthfirst.com</p>
+              <p className="text-gray-600">Email: rupalidtarwade@gmail.com</p>
               <p className="text-gray-600">Phone: +91 9890619348</p>
             </div>
           </div>

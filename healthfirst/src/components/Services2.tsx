@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 interface ServiceFeatureProps {
   title: string;
   description: string;
@@ -21,7 +22,7 @@ const servicesData: ServiceFeatureData[] = [
     description:
       "Experience our state-of-the-art health club facilities with a complimentary 3-day trial. Access to all equipment, classes, and amenities included. Perfect opportunity to jumpstart your fitness journey and see if our club is the right fit for you.",
     imageUrl:
-      "https://wallup.net/wp-content/uploads/2016/02/18/286966-nature-photography.jpg",
+      "https://i.pinimg.com/736x/45/56/68/4556688017a072069c5847ba8c350fb8.jpg",
     imageOnRight: true,
   },
   {
