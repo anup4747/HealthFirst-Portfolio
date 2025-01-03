@@ -22,7 +22,7 @@ const servicesData: ServiceFeatureData[] = [
     description:
       "Experience our state-of-the-art health club facilities with a complimentary 3-day trial. Access to all equipment, classes, and amenities included. Perfect opportunity to jumpstart your fitness journey and see if our club is the right fit for you.",
     imageUrl:
-      "https://i.pinimg.com/736x/45/56/68/4556688017a072069c5847ba8c350fb8.jpg",
+      "https://i.pinimg.com/736x/79/b1/1e/79b11ea72a9bfc686b40b0a976022829.jpg",
     imageOnRight: true,
   },
   {
