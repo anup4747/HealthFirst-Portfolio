@@ -78,7 +78,7 @@ export const Navbar: React.FC = () => {
               Services
             </Link>
             <Link to="/about"  className=" border-gray-600 hover:underline" onClick={() => setToggleMenu(!toggleMenu)}>
-              Testimonies
+              About
             </Link>
             <Link to="/contact"  className=" border-gray-600 hover:underline" onClick={() => setToggleMenu(!toggleMenu)}>
               Contact Us

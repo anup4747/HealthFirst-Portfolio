@@ -19,7 +19,7 @@ export const About: React.FC = () => {
       <div className="relative max-w-4xl mx-auto px-4 mb-16">
         <div className="aspect-[16/9] rounded-2xl overflow-hidden transition-shadow duration-100 shadow-xl hover:shadow-2xl">
           <img
-            src=""
+            src="https://i.pinimg.com/736x/91/f0/6a/91f06a779e321fa4b1c61ae181031079.jpg"
             alt="Health Coach Couple"
             className="w-full h-full object-cover"
           />
